@@ -1,0 +1,31 @@
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+th,td {
+  border: 1px solid #ccc;
+  padding: 5px 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+th:first-of-type {
+  width: 60px;
+}
+
+th:last-of-type {
+  width: 100px;
+}
+
+th {
+  background-color: #f1f1f1;
+}
+
+td.none {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
