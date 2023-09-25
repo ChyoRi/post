@@ -49,7 +49,7 @@ const delData = () => {
 
 /** 게시글 수정하기 */
 
-const editDate = () => {
+const editData = () => {
   if(!id) return;
   const search = location.search;
   const query = search.replace('?', '');
@@ -60,4 +60,4 @@ const editDate = () => {
 
 getData();
 delBtn.addEventListener('click', delData);
-editBtn.addEventListener('click', editDate);
+editBtn.addEventListener('click', editData);
